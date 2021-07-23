@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+   margin: 0 auto;
+}
+
+.container {
+   height: 100%;
+}
+
+.header {
+   background: #F5F5F6;
+   width: 1150px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+}
+
+main {
+   max-width: 1150px;
+}
+
+.logo {
+   margin: 8px 0 0 99px;
+}
+
+.bank, .bisnes, .invest, .insuranse, .mobile, .travel, .entertainment {
+   width: 50px;
+   height: 19px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 13px;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.06em;
+   color: #959BA4;
+}
+
+.bank {
+   margin: 0 0 0 64px;
+}
+
+.bank:hover, .bisnes:hover, .invest:hover, .insuranse:hover, .mobile:hover, .travel:hover,.entertainment:hover {
+   cursor: pointer;
+   color: #000000;
+}
+
+.bisnes {
+   margin: 0 7px;
+}
+
+.invest {
+   margin: 0 0 0 14px;
+}
+
+.insuranse {
+   margin: 0 0 0 53px;
+}
+
+.mobile {
+   margin: 0 0 0 62px;
+}
+
+.travel {
+   margin: 0 0 0 24px;
+}
+
+.entertainment {
+   margin: 0 0 0 60px;
+}
+
+.registration {
+   border-radius: 5px;
+   margin: 0 0 0px 170px;
+   width: 50px;
+   height: 29px;
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 13px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.06em;
+   color: #000000;
+   background-color: #fff;
+}
+
+h1 {
+   margin: 57px 0px 0 252px;
+   width: 587px;
+   height: 32px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 42px;
+   color: #000000;
+}
+
+.forms {
+   display: flex;
+   margin: 30px 162px 0 120px;
+}
+
+h5 {
+   width: 120px;
+   height: 28px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 14px;
+   display: flex;
+   align-items: center;
+   color: #9F9F9F;
+}
+
+.form-1 {
+   margin-left: 131px;
+}
+
+.form-1 h5 {
+   margin: 0;
+}
+
+.rub {
+   border-radius: 4px 0 0 4px;
+}
+
+.select {
+   border-radius: 0 4px 4px 0px;
+
+}
+select {
+   color: #C6C6C6;
+   outline: none;
+   border: none;
+   background-color: white;
+   width: 50px;
+   height: 28px;
+   border-radius: 0 4px 4px 0px;
+
+}
+
+option {
+   width: 37px;
+   height: 28px;
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 14px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+
+.currency-1 {
+   display: flex;
+}
+
+.section-1 {
+   margin: 22px 0 0 0px;
+   width: 259px;
+   height: 102px;
+   border: 1px solid #E5E5E5;
+   box-sizing: border-box;
+   border-radius: 3px;
+}
+
+
+
+.form-2 {
+   margin: 0 93px 0 0px;
+}
+.form-2 h5 {
+   margin: 0;
+}
+.currency-2 {
+   display: flex;
+
+}
+
+.allBtnLeft, .allBtnRight, .select{
+   cursor: pointer;
+   border: 1px solid #E5E5E5;
+   width: 50px;
+   height: 30px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 14px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   color: #C6C6C6;
+
+}
+
+.list-currencies {
+
+}
+.arrows {
+   cursor: pointer;
+   position: relative;
+   top: 115px;
+   right: 13px;
+   width: 39px;
+   height: 33px;
+}
+
+.arrows:hover {
+   border-radius: 5px;
+   box-shadow: 0 0 20px #5e5b5b;
+   background-color: #833AE0;
+
+}
+
+input {
+   margin: 12px 0 0 13px;
+   outline: none;
+   border: none;
+   width: 200px;
+   height: 38px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 42px;
+   color: #000000;
+}
+
+p {
+   margin: 16px 0 0 18px;
+   width: 150px;
+   height: 28px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 10px;
+   line-height: 14px;
+   display: flex;
+   align-items: center;
+   color: #C6C6C6;
+}
+
+.open {
+   cursor: pointer;
+   background: #833AE0;
+   color: white;
+}
+
+.expectation {
+   display: flex;
+   height: auto;
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: rgba(0, 0, 0, 0.44);
+   align-items: center;
+   justify-content: center;
+}
+
+.louder {
+   display: none;
+}
+
+.img-louder {
+   width: 300px;
+   height: 300px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
+   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+   <title>Document</title>
+</head>
+<body>
+   <div class="container">
+      <header class="header">
+         <div class="logo">
+            <img src="./images/logo.png" alt="logo" class="logotip">
+         </div>
+            <div class="bank">Банк</div>
+            <div class="bisnes">Бизнес</div>
+            <div class="invest">Инвестиции</div>
+            <div class="insuranse">Страхование</div>
+            <div class="mobile">Мобайл</div>
+            <div class="travel">Путешествия</div>
+            <div class="entertainment">Развлечения</div>
+            <div class="registration">Войти</div>
+         </div>
+      </header>
+      <main>
+         <h1>Конвертер валют онлайн</h1>
+         <div class="forms">
+            <div class="form-1">
+               <h5>У меня есть</h5>
+               <div class="currency-1">
+                  <div id="left-btn-RUB" class="allBtnLeft rub">RUB</div>
+                  <div id="left-btn-USD" class="allBtnLeft">USD</div>
+                  <div id="left-btn-EUR" class="allBtnLeft">EUR</div>
+                  <div id="left-btn-GBP" class="allBtnLeft">GBP</div>
+                  <div class="select">
+                     <select name="" class="rates rates-left"></select>
+                  </div>
+               </div>
+               <section class="section-1">
+                  <input type="number" value="1" class="input-1">
+                  <p class="left-p"></p> 
+               </section>
+            </div>
+            <img src="./images/arrows.png" alt="" class="arrows">
+            <div class="form-2">
+               <h5>Хочу приобрести</h5>
+               <div class="currency-2">
+                  <div id="right-btn-RUB" class="allBtnRight rub">RUB</div>
+                  <div id="right-btn-USD" class="allBtnRight">USD</div>
+                  <div id="right-btn-EUR" class="allBtnRight">EUR</div>
+                  <div id="right-btn-GBP" class="allBtnRight">GBP</div>
+                  <div class="select">
+                     <select name="" class="rates rates-right"></select>
+                  </div>
+               </div>
+               <section class="section-1">
+                  <input type="number" class="input-2">
+                  <p class="right-p"></p>
+               </section>
+            </div>
+         </div>
+         <div class="expectation louder">
+            <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_3oisnrfa.json" hover loop  autoplay class="img-louder"></lottie-player>
+         </div>
+      </main>
+   </div>
+   <script src="./script.js"></script>
+</body>
+</html>
