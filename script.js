@@ -159,13 +159,11 @@ allBtnRight.forEach((elem) => {
 
 selectLeft.addEventListener("change", (event) => {
    btnLeft = event.target.value;
-   console.log(btnLeft);
    multiplayer();
 });
 
 selectRight.addEventListener("change", (event) => {
    btnRight = event.target.value;
-   console.log(btnRight);
    multiplayer();
 });
 
